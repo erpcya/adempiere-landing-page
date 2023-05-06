@@ -10,7 +10,7 @@ tag:
 article: false
 ---
 
-[Docker](https://www.docker.com/) es una forma sencilla de arrancar un despliegue de aplicación, funciona bajo un esquema de contenedores que permiten reutilizar recursos y librerías de un sistema operativo. 
+[Docker](https://www.docker.com/) es una forma sencilla de arrancar un despliegue de aplicación, funciona bajo un esquema de contenedores que permiten reutilizar recursos y librerías de un sistema operativo.
 
 ## Imágenes Oficiales
 
@@ -32,7 +32,6 @@ Si solo quieres ver nuestros productos puedes hacer un despliegue local de maner
 
 Para hacer el despliegue local puedes descargar [este](https://github.com/erpya/adempiere-all-services) repositorio y seguir las siguientes instrucciones.
 
-
 ### Requerimientos
 
 Sólo necesitas instalar [git](https://git-scm.com/downloads) y [Docker Compose v2.16.0 o superior](https://docs.docker.com/compose/install/linux/)
@@ -48,6 +47,7 @@ git clone https://github.com/adempiere/adempiere-all-services
 ```
 cd adempiere-all-services
 ```
+
 ### Haz una copia de la plantilla de despliegue
 
 ```

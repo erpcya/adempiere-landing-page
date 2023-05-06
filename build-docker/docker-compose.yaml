@@ -6,7 +6,6 @@ networks:
 volumes:
   pgdata:
 
-
 services:
   adempiere.db:
     image: solopcloud/adempiere-postgres:14-alpine-experimental-1.0.4
@@ -20,7 +19,6 @@ services:
       - ADEMPIERE_PASSWORD=adempiere
     networks:
       - adempiere-ui
-
 
   adempiere.backend:
     image: solopcloud/adempiere-backend:alpine
@@ -36,14 +34,12 @@ services:
     networks:
       - adempiere-ui
 
-
   adempiere.redis:
     image: redis:4-alpine
     ports:
-      - '6379:6379'
+      - "6379:6379"
     networks:
       - adempiere-ui
-
 
   adempiere.proxy:
     image: solopcloud/adempiere-proxy:alpine
@@ -66,7 +62,6 @@ services:
     networks:
       - adempiere-ui
 
-
   adempiere.vue:
     image: solopcloud/adempiere-vue:alpine
     # container_name: adempiere-frontend
@@ -81,7 +76,6 @@ services:
       - TZ="America/Caracas"
     networks:
       - adempiere-ui
-
 
   adempiere.site:
     # container_name: adempiere-site

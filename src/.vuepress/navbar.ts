@@ -11,15 +11,11 @@ export const enNavbarConfig = navbar([
       {
         text: "News",
         prefix: "news/",
-        children: [
-          "2023-01-01-adempiere-394",
-        ],
+        children: ["2023-01-01-adempiere-394"],
       },
       {
         text: "History",
-        children: [
-          "the-beginning",
-        ],
+        children: ["the-beginning"],
       },
     ],
   },
@@ -31,12 +27,7 @@ export const enNavbarConfig = navbar([
       { text: "Product", icon: "engine", link: "", activeMatch: "^/product/$" },
       {
         text: "Technology",
-        children: [
-          "technology",
-          "business-process",
-          "benefits",
-          "source-code",
-        ],
+        children: ["technology", "business-process", "benefits"],
       },
     ],
   },
@@ -45,13 +36,7 @@ export const enNavbarConfig = navbar([
     icon: "creative",
     prefix: "/docs/component",
     children: [
-      { text: "Docs", link: "", icon: "note", activeMatch: "^/docs/$" },
-      {
-        text: "Component",
-        children: [
-          "/",
-        ],
-      },
+      { text: "Docs", link: "https://docs.erpya.com/docs/", icon: "note", activeMatch: "^/docs/$" }
     ],
   },
   {
@@ -87,7 +72,7 @@ export const enNavbarConfig = navbar([
         children: ["docker", "binary"],
       },
     ],
-  }
+  },
 ]);
 
 export const esNavbarConfig = navbar([
@@ -95,59 +80,59 @@ export const esNavbarConfig = navbar([
   {
     text: "Nosotros",
     icon: "profile",
-    prefix: "/about/",
+    prefix: "/es/about/",
     children: [
-      { text: "Nosotros", icon: "software", link: "", activeMatch: "^/about/$" },
+      {
+        text: "Nosotros",
+        icon: "software",
+        link: "",
+        activeMatch: "^/about/$",
+      },
       {
         text: "Noticias",
         prefix: "news/",
-        children: [
-          "2023-01-01-adempiere-394",
-        ],
+        children: ["2023-01-01-adempiere-394"],
       },
       {
         text: "Historia",
-        children: [
-          "the-beginning",
-        ],
+        children: ["the-beginning"],
       },
     ],
   },
   {
     text: "Producto",
     icon: "engine",
-    prefix: "/product/",
+    prefix: "/es/product/",
     children: [
-      { text: "Producto", icon: "engine", link: "", activeMatch: "^/product/$" },
+      {
+        text: "Producto",
+        icon: "engine",
+        link: "",
+        activeMatch: "^/product/$",
+      },
       {
         text: "Tecnología",
-        children: [
-          "technology",
-          "business-process",
-          "benefits",
-          "source-code",
-        ],
+        children: ["technology", "business-process", "benefits"],
       },
     ],
   },
   {
     text: "Documentación",
     icon: "creative",
-    prefix: "/docs/",
+    prefix: "/es/docs/",
     children: [
-      { text: "ADempiere Estándar", link: "", icon: "note", activeMatch: "^/docs/$" },
       {
-        text: "Component",
-        children: [
-          "/",
-        ],
-      }
+        text: "ADempiere Estándar",
+        link: "https://docs.erpya.com/docs/",
+        icon: "note",
+        activeMatch: "^/docs/$",
+      },
     ],
   },
   {
     text: "Comunidad",
     icon: "group",
-    prefix: "/community/",
+    prefix: "/es/community/",
     children: [
       {
         text: "Comunidad",
@@ -164,7 +149,7 @@ export const esNavbarConfig = navbar([
   {
     text: "Descargas",
     icon: "software",
-    prefix: "/downloads/",
+    prefix: "/es/downloads/",
     children: [
       {
         text: "Descargas",
@@ -177,5 +162,5 @@ export const esNavbarConfig = navbar([
         children: ["docker", "binary"],
       },
     ],
-  }
+  },
 ]);

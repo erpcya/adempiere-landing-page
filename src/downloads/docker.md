@@ -10,7 +10,7 @@ tag:
 article: false
 ---
 
-[Docker](https://www.docker.com/) is a easy way for deploy a application, this allows reuse hardware resources and SO libraries. 
+[Docker](https://www.docker.com/) is a easy way for deploy a application, this allows reuse hardware resources and SO libraries.
 
 ## Imágenes Oficiales
 
@@ -47,6 +47,7 @@ git clone https://github.com/adempiere/adempiere-all-services
 ```
 cd adempiere-all-services
 ```
+
 ### Make a copy of enviroment file
 
 ```

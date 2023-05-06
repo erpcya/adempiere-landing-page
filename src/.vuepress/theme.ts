@@ -57,7 +57,7 @@ export default hopeTheme({
             GitHub: "https://github.com/erpcya",
             Discord: "https://discord.gg/UWcyn7DEzV",
             Twitter: "https://twitter.com/erpcya",
-        },
+          },
         },
       },
     },

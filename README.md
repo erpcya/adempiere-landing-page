@@ -19,6 +19,7 @@ The collection includes a number of books covering the main topics of:
 ![Discord](https://img.shields.io/discord/876231677209374750)
 
 ## Running the docs
+
 For build it just run `yarn build:vite`, if you want to run all doc just run `yarn dev:vite`, a result after run can be:
 
 ```Shell
@@ -39,11 +40,13 @@ info Initializing VuePress and preparing data...
 ## Run docker container:
 
 ### Minimal Docker Requirements
+
 To use this Docker image you must have your Docker engine version greater than or equal to 3.0.
 
-
 ### Run with Docker-Compose
+
 Or easy run container using `docker-compose` with follow command:
+
 ```shell
 docker compose -f build-docker/docker-compose.yaml up
 ```
@@ -57,6 +60,7 @@ docker pull erpya/adempiere-landing-page
 ```
 
 Run the docker container
+
 ```shell
 docker run -it -d \
 	--name adempiere-landing-page \
@@ -67,8 +71,10 @@ docker run -it -d \
 ```
 
 ### Build docker image (for development only):
+
 First compile output files.
-``` bash
+
+```bash
 # Install packages.
 pnpm install --frozen-lockfile
 
@@ -77,6 +83,7 @@ pnpm run build:vite
 ```
 
 Build docker image (for development only):
+
 ```shell
 docker build -t erpya/adempiere-landing-page:dev -f ./build-docker/development.Dockerfile .
 ```

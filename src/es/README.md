@@ -20,7 +20,7 @@ projects:
     desc: ¿Tienes un problema? ¡Contáctanos!
     link: https://discord.gg/UWcyn7DEzV
     icon: /assets/img/discord-logo.png
-  
+
   - name: Documentación Oficial
     desc: Si deseas conocer más acerca de nuestras herramientas puedes consultar nuestra guía completa
     link: https://docs.erpya.com/docs/
