@@ -1,4 +1,4 @@
-# ADempiere Stanalone Page
+# ERP Consultores y Asociados, C.A. ADEmpiere Landing Page
 
 [![Original Author: Mr.Hope](https://img.shields.io/badge/Author-Mr.Hope-blue.svg?style=for-the-badge)](https://mrhope.site)
 [![License](https://img.shields.io/github/license/mister-hope/mister-hope.github.io?style=for-the-badge)](https://github.com/Mister-Hope/Mister-Hope.github.io/blob/master/LICENSE)
@@ -55,7 +55,7 @@ docker compose -f build-docker/docker-compose.yaml up
 Download docker image:
 
 ```shell
-docker pull openls/adempiere-landing-page
+docker pull erpya/adempiere-landing-page
 ```
 
 Run the docker container
@@ -65,7 +65,7 @@ docker run -it -d \
 	-p 80:80 \
 	-e VUE_HOST="http://localhost:9526" \
 	-e ZK_HOST="http://localhost:8888" \
-	openls/adempiere-landing-page
+	erpya/adempiere-landing-page
 ```
 
 ### Build docker image (for development only):
@@ -80,5 +80,5 @@ pnpm run build:vite
 
 Build docker image (for development only):
 ```shell
-docker build -t openls/adempiere-landing-page:dev -f ./build-docker/development.Dockerfile .
+docker build -t erpya/adempiere-landing-page:dev -f ./build-docker/development.Dockerfile .
 ```
