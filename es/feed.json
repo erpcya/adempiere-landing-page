@@ -1,0 +1,25 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "",
+  "home_page_url": "https://docs.erpya.com/es/",
+  "feed_url": "https://docs.erpya.com/feed.json",
+  "description": "Página oficial de la comunidad de ADempiere",
+  "items": [
+    {
+      "title": "Liberación de ADempiere 3.9.4",
+      "url": "https://docs.erpya.com/es/about/news/2023-01-01-adempiere-394.html",
+      "id": "https://docs.erpya.com/es/about/news/2023-01-01-adempiere-394.html",
+      "content_html": "<h2 id=\"adempiere-3-9-4-esta-aqui\" tabindex=\"-1\"> ADempiere 3.9.4 está aquí</h2>\n",
+      "date_published": "2023-05-06T16:41:38.000Z",
+      "date_modified": "2023-05-06T17:13:30.000Z",
+      "authors": [
+        {
+          "name": "Yamel Senih"
+        }
+      ],
+      "tags": [
+        "Noticias"
+      ]
+    }
+  ]
+}

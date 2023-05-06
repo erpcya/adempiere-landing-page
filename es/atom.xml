@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES">
+  <id>https://docs.erpya.com/es/</id>
+  <title/>
+  <subtitle>Página oficial de la comunidad de ADempiere</subtitle>
+  <updated>2023-05-06T17:15:47.249Z</updated>
+  <generator>vuepress-plugin-feed2</generator>
+  <link rel="self" href="https://docs.erpya.com/atom.xml"/>
+  <link rel="alternate" href="https://docs.erpya.com/es/"/>
+  <category term="Noticias"/>
+  <contributor>
+    <name>Yamel Senih</name>
+  </contributor>
+  <entry>
+    <title type="html">Liberación de ADempiere 3.9.4</title>
+    <id>https://docs.erpya.com/es/about/news/2023-01-01-adempiere-394.html</id>
+    <link href="https://docs.erpya.com/es/about/news/2023-01-01-adempiere-394.html"/>
+    <updated>2023-05-06T17:13:30.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="adempiere-3-9-4-esta-aqui" tabindex="-1"> ADempiere 3.9.4 está aquí</h2>
+]]></content>
+    <author>
+      <name>Yamel Senih</name>
+    </author>
+    <category term="Noticias" scheme=""/>
+    <contributor>
+      <name>Yamel Senih</name>
+    </contributor>
+    <published>2023-05-06T16:41:38.000Z</published>
+    <rights>Copyright by Yamel Senih</rights>
+  </entry>
+</feed>
