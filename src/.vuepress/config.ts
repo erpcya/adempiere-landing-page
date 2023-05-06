@@ -28,11 +28,11 @@ export default defineUserConfig({
       title: "",
       description: "A official page of ADempiere community.",
     },
-    // "/es/": {
-    //   title: "",
-    //   lang: "es-ES",
-    //   description: "Página oficial de la comunidad de ADempiere",
-    // },
+    "/es/": {
+      title: "",
+      lang: "es-ES",
+      description: "Página oficial de la comunidad de ADempiere",
+    },
   },
 
   theme,

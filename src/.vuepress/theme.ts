@@ -1,15 +1,13 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 import { enNavbarConfig, esNavbarConfig } from "./navbar";
-// import { esSidebarConfig, enSidebarConig } from "./sidebar";
-import { enSidebar } from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://github.com/adempiere/adempiere-site.github.io",
+  hostname: "https://docs.erpya.com",
 
   author: {
-    name: "ADempiere",
-    url: "https://adempiere-site.erpya.com",
+    name: "ERP Consultores y Asociados, C.A.",
+    url: "https://erpya.com",
   },
 
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
@@ -17,7 +15,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/solop-develop/adempiere-site-on-premise",
+  repo: "https://github.com/erpcya/ademnpiere-landing-page",
 
   themeColor: {
     blue: "#2196f3",
@@ -35,38 +33,38 @@ export default hopeTheme({
   locales: {
     "/": {
       navbar: enNavbarConfig,
-      // sidebar: enSidebarConig,
-      sidebar: enSidebar,
-
       blog: {
         description: "ADempiere ERP Community",
         intro: "/about/",
         medias: {
-          Gmail: "mailto:info@adempiere.io",
-          GitHub: "https://github.com/adempiere/adempiere-site",
+          Gmail: "mailto:info@erpya.com",
+          GitHub: "https://github.com/erpcya",
+          Discord: "https://discord.gg/UWcyn7DEzV",
+          Twitter: "https://twitter.com/erpcya",
         },
       },
     },
     "/es/": {
       navbar: esNavbarConfig,
-      // sidebar: esSidebarConfig,
 
       blog: {
         description:
           "VuePress project member, front-end developer, studying for a master's degree in theoretical physics",
         intro: "/es/about/",
         medias: {
-          Gmail: "mailto:info@adempiere.io",
-          GitHub: "https://github.com/adempiere/adempiere-site",
-          Discord: "https://discord.gg/8eFAqkhb",
-          Twitter: "https://twitter.com/ADempiereERP",
+          medias: {
+            Gmail: "mailto:info@erpya.com",
+            GitHub: "https://github.com/erpcya",
+            Discord: "https://discord.gg/UWcyn7DEzV",
+            Twitter: "https://twitter.com/erpcya",
+        },
         },
       },
     },
   },
 
   displayFooter: true,
-  copyright: "Copyright © 2022-present ADempiere Community",
+  copyright: "Copyright © 2022-present ERP Consultores y Asociados, C.A.",
 
   plugins: {
     blog: true,

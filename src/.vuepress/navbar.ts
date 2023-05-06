@@ -9,10 +9,16 @@ export const enNavbarConfig = navbar([
     children: [
       { text: "About", icon: "software", link: "", activeMatch: "^/about/$" },
       {
-        text: "Articles",
-        prefix: "articles/",
+        text: "News",
+        prefix: "news/",
         children: [
-          "2015-08-06-world-announcement-for-adempiere",
+          "2023-01-01-adempiere-394",
+        ],
+      },
+      {
+        text: "History",
+        children: [
+          "the-beginning",
         ],
       },
     ],
@@ -29,6 +35,7 @@ export const enNavbarConfig = navbar([
           "technology",
           "business-process",
           "benefits",
+          "source-code",
         ],
       },
     ],
@@ -46,22 +53,62 @@ export const enNavbarConfig = navbar([
         ],
       },
     ],
+  },
+  {
+    text: "Community",
+    icon: "group",
+    prefix: "/community/",
+    children: [
+      {
+        text: "Community",
+        icon: "group",
+        link: "",
+        activeMatch: "^/community/$",
+      },
+      {
+        text: "ADempiere ERP Community",
+        children: ["code-of-conduct", "duties-and-rigths"],
+      },
+    ],
+  },
+  {
+    text: "Downloads",
+    icon: "software",
+    prefix: "/downloads/",
+    children: [
+      {
+        text: "Downloads",
+        icon: "software",
+        link: "",
+        activeMatch: "^/downloads/$",
+      },
+      {
+        text: "Binary Files",
+        children: ["docker", "binary"],
+      },
+    ],
   }
 ]);
 
 export const esNavbarConfig = navbar([
   "/es/",
   {
-    text: "Acerca De",
+    text: "Nosotros",
     icon: "profile",
-    prefix: "/es/about/",
+    prefix: "/about/",
     children: [
-      { text: "Acerca De", icon: "software", link: "", activeMatch: "^/about/$" },
+      { text: "Nosotros", icon: "software", link: "", activeMatch: "^/about/$" },
       {
-        text: "Artículos",
-        prefix: "articles/",
+        text: "Noticias",
+        prefix: "news/",
         children: [
-          "2015-08-06-world-announcement-for-adempiere",
+          "2023-01-01-adempiere-394",
+        ],
+      },
+      {
+        text: "Historia",
+        children: [
+          "the-beginning",
         ],
       },
     ],
@@ -69,7 +116,7 @@ export const esNavbarConfig = navbar([
   {
     text: "Producto",
     icon: "engine",
-    prefix: "/es/product/",
+    prefix: "/product/",
     children: [
       { text: "Producto", icon: "engine", link: "", activeMatch: "^/product/$" },
       {
@@ -78,6 +125,7 @@ export const esNavbarConfig = navbar([
           "technology",
           "business-process",
           "benefits",
+          "source-code",
         ],
       },
     ],
@@ -85,14 +133,48 @@ export const esNavbarConfig = navbar([
   {
     text: "Documentación",
     icon: "creative",
-    prefix: "/es/docs/",
+    prefix: "/docs/",
     children: [
-      { text: "Documentación", link: "", icon: "note", activeMatch: "^/docs/$" },
+      { text: "ADempiere Estándar", link: "", icon: "note", activeMatch: "^/docs/$" },
       {
-        text: "Administración de Materiales",
+        text: "Component",
         children: [
-          "material-management/product/",
+          "/",
         ],
+      }
+    ],
+  },
+  {
+    text: "Comunidad",
+    icon: "group",
+    prefix: "/community/",
+    children: [
+      {
+        text: "Comunidad",
+        icon: "group",
+        link: "",
+        activeMatch: "^/community/$",
+      },
+      {
+        text: "Comunidad de ADempiere ERP",
+        children: ["code-of-conduct", "duties-and-rigths"],
+      },
+    ],
+  },
+  {
+    text: "Descargas",
+    icon: "software",
+    prefix: "/downloads/",
+    children: [
+      {
+        text: "Descargas",
+        icon: "software",
+        link: "",
+        activeMatch: "^/downloads/$",
+      },
+      {
+        text: "Binarios de Aplicaciones",
+        children: ["docker", "binary"],
       },
     ],
   }

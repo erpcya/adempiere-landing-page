@@ -2,23 +2,34 @@
 home: true
 layout: Blog
 icon: home
-title: Home
-bgImage: /background.png
-heroFullScreen: true
+title: .
+bgImage: /background.jpg
+heroFullScreen: false
 projects:
-  - name: ZK UI
+  - name: ADempiere Vue (New UI)
+    desc: Completely created on Javascript with Vue
+    link: http://localhost:9526
+    icon: /assets/img/vue-logo.png
+
+  - name: ADempiere ZK (Old Version)
     desc: Ajax (UI) for ADempiere
     link: http://localhost:8888/webui/
     icon: /assets/icon/logo.png
 
-  - name: New UI for ADempiere
-    desc: Completely created on Javascript with Vue
-    link: http://localhost:9526
-    icon: /assets/img/vue-logo.png
-  # - name: Discord Rooms
-  #   desc: Hey we are on Discord!
-  #   link: https://discord.gg/8eFAqkhb
-  #   icon: /assets/img/discord-logo.png
+  - name: Customer Support
+    desc: Do you have a problem? ¡Contact to us!
+    link: https://discord.gg/UWcyn7DEzV
+    icon: /assets/img/discord-logo.png
 
-footer: '<a href="https://github.com/adempiere" rel="noopener noreferrer" target="_blank">ADempiere Community</a> | <a href="/about/site">About Site</a>'
+  - name: Official Docs
+    desc: If you want to learn about ours products, just get a complete guide
+    link: https://docs.erpya.com/docs/
+    icon: /assets/img/vuepress.png
+
+  - name: Web Site
+    desc: Know all products and services
+    link: https://erpya.com/
+    icon: /assets/icon/logo.png
+
+footer: '<a href="https://erpya.com" rel="noopener noreferrer" target="_blank">ERP Consultores y Asociados, C.A.</a> | <a href="/about">About</a>'
 ---
