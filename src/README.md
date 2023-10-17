@@ -16,6 +16,11 @@ projects:
     link: http://localhost:8888/webui/
     icon: /assets/icon/logo.png
 
+  - name: ADempiere Swing (Deprecated Version)
+    desc: Completely Java UI ADempiere
+    link: http://swing_deprecated_reference
+    icon: /assets/icon/swing.png
+
   - name: Customer Support
     desc: Do you have a problem? ¡Contact to us!
     link: https://discord.gg/UWcyn7DEzV

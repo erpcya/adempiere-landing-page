@@ -85,3 +85,4 @@ services:
     environment:
       - VUE_HOST=http://localhost:9526
       - ZK_HOST=http://localhost:8888
+      - SWING_HOST="http://localhost/adempiere.zip"

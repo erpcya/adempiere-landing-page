@@ -67,6 +67,7 @@ docker run -it -d \
 	-p 80:80 \
 	-e VUE_HOST="http://localhost:9526" \
 	-e ZK_HOST="http://localhost:8888" \
+  -e SWING_HOST="http://localhost/adempiere.zip" \
 	erpya/adempiere-landing-page
 ```
 

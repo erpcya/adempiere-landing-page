@@ -9,5 +9,8 @@ find -name 'index.html.*.js' -exec sed -i "s|http://localhost:9526|$VUE_HOST|g" 
 # Set ZK host client
 find -name 'index.html.*.js' -exec sed -i "s|http://localhost:8888|$ZK_HOST|g" {} \;
 
+# Set Swing host client
+find -name 'index.html.*.js' -exec sed -i "s|http://swing_deprecated_reference|$SWING_HOST|g" {} \;
+
 # Start nginx web server
 nginx && tail -f /dev/null

@@ -16,6 +16,11 @@ projects:
     link: http://localhost:8888/webui/
     icon: /assets/icon/logo.png
 
+  - name: ADempiere Swing (Versión Depreciada)
+    desc: Una Interfáz escrita completamente en Java para ADempiere
+    link: http://swing_deprecated_reference
+    icon: /assets/icon/swing.png
+
   - name: Atención al Cliente
     desc: ¿Tienes un problema? ¡Contáctanos!
     link: https://discord.gg/UWcyn7DEzV
