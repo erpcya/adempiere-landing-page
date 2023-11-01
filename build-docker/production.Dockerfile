@@ -6,7 +6,7 @@ LABEL	maintainer="EdwinBetanc0urt@outlook.com; ElsioSanchez15@outlook.com; ySeni
 
 # Init ENV with default values
 ENV VUE_HOST="http://localhost:9526" \
-	ZK_HOST="http://localhost:8888" \
+	ZK_HOST="http://localhost:8888/webui/" \
 	SWING_HOST="http://localhost/adempiere.zip"
 
 

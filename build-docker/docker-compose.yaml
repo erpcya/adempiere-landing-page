@@ -84,5 +84,5 @@ services:
       - 80:80
     environment:
       - VUE_HOST=http://localhost:9526
-      - ZK_HOST=http://localhost:8888
+      - ZK_HOST=http://localhost:8888/webui/
       - SWING_HOST="http://localhost/adempiere.zip"
